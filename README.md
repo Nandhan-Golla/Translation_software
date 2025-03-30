@@ -19,7 +19,8 @@ Translation Engine: Our AI model translates the text while preserving its meanin
 Output Generation: The final translation is structured into natural, readable sentences.
 
 Architectural Diagram:
-![image](https://github.com/user-attachments/assets/3de191f1-38ae-476e-8824-a4e7be38b085)
+![architecture_diagram](https://github.com/user-attachments/assets/4952c358-e318-4d73-b7f7-be90db39f164)
+
 
 References:
 [1]	Open Neural Network Exchange (ONNX). (2022). Optimizing Neural Models for Edge and Offline Applications.
