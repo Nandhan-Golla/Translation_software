@@ -26,3 +26,54 @@ References:
 [1]	Open Neural Network Exchange (ONNX). (2022). Optimizing Neural Models for Edge and Offline Applications.
 [2]	AI4Bharat. (2021). Building Open-Source AI Models for Indian Languages. AI4Bharat Research Publications.
 [3]	Wu, Y., Schuster, M., Chen, Z., Le, Q. V., et al. (2016). Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation. arXiv preprint arXiv:1609.08144.
+
+## Project Structure
+
+```
+offline-translator
+├── src
+│   ├── model.py          # Contains model definition and loading logic
+│   ├── translator.py     # Implements translation functionality
+│   └── utils
+│       └── __init__.py   # Utility functions for preprocessing and postprocessing
+├── requirements.txt      # Lists project dependencies
+├── .gitignore            # Specifies files to ignore in version control
+└── README.md             # Project documentation
+```
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/Nandhan-Golla/Translation_software.git
+
+   cd Translation_software/offline-translator
+   ```
+
+2. Create a virtual environment (optional but recommended):
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+To use the offline translator, you can run the `translator.py` script. Ensure that you have the necessary model files available in the specified directory.
+
+Example command:
+```
+python src/translator.py --input "Hello, how are you?" --source_lang "en" --target_lang "es"
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
