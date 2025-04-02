@@ -32,13 +32,17 @@ References:
 ```
 offline-translator
 ├── src
-│   ├── model.py          # Contains model definition and loading logic
-│   ├── translator.py     # Implements translation functionality
-│   └── utils
-│       └── __init__.py   # Utility functions for preprocessing and postprocessing
-├── requirements.txt      # Lists project dependencies
-├── .gitignore            # Specifies files to ignore in version control
-└── README.md             # Project documentation
+│   ├── models
+│       └── transformer.py          # Contains model definition and loading logic
+│   ├── utils                       # Implements translation functionality
+│       └── translator.py
+│       └── __init__.py
+│   └── interface
+│       └── gradio_app.py           # Utility functions for preprocessing and postprocessing using the gradio interface
+├── main.py                         # Contains the Implementation or the Launch file
+├── requirements.txt                # Lists project dependencies
+├── .gitignore                      # Specifies files to ignore in version control
+└── README.md                       # Project documentation
 ```
 
 ## Setup Instructions
