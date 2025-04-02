@@ -1,5 +1,8 @@
 transformers
-torch
 sentencepiece
 numpy
 pandas
+torch>=2.0.0
+torchtext>=0.15.0
+spacy>=3.0.0
+gradio>=4.0.0
