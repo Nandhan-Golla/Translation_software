@@ -71,7 +71,7 @@ To use the offline translator, you can run the `translator.py` script. Ensure th
 
 Example command:
 ```
-python src/translator.py --input "Hello, how are you?" --source_lang "en" --target_lang "es"
+python src/utils/translator.py --input "Hello, how are you?" --source_lang "en" --target_lang "es"
 ```
 
 ## Contributing
